@@ -1,0 +1,136 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Cooper Black', cursive;
+	box-sizing: border-box;
+	text-shadow: 1px 2px #1000;
+
+}
+#contenedor{
+	width: 960px;
+	margin: 0 auto;
+
+}
+body{
+	background-image: url('j.jpg');
+	background-size: cover;
+	padding: .5em 3em;
+
+	
+}
+header{
+	margin-top: 2em;
+	/*background-color: #EA8B3E;
+	font-size: 20pt;
+	padding: 1em;
+	border-radius: 15px;
+	margin-bottom: 1em;
+	background-image: url('libro.jpg');
+	background-size: cover;*/
+}
+header, section, footer{
+	float: left;
+	width: 100%;
+}
+section aside{
+	float: left;
+	width: 25%;
+	background-color: lead;
+	margin-right: 1em;
+	border-radius: 15px;
+
+}
+section section{
+	float: left;
+	width: 52%;
+	
+	border-radius: 20px;
+	color: #041EDE;
+   background-color: rgba(211,211,211,0.4);
+}
+
+section aside ul{
+	list-style-type: none;
+}
+section aside ul a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding: .80em;
+	border-radius: 15px;
+
+}
+section aside ul a:hover{
+	background-color: white;
+	color: black;
+}
+section{
+	margin-bottom: 2em;
+}
+section section {
+	padding: .5em;
+}
+section section article h2{
+	text-align: center;
+
+}
+section section article p{
+	line-height: 170%;
+
+}
+footer{
+	padding: .75em;
+	background-color: #D0D640;
+	border-radius: 15px;
+	color: #fff;
+   background-color: rgba(211,211,211,0.3);
+}
+section#otrolado{ 
+   	width: 20%; 
+   	float: right;
+   	color: #fff;
+   background-color: rgba(211,211,211,0.3);	}
+   social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ .social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#111FCF;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-google-plus3 {background: #ae181f;}
+	.social ul li .icon-youtube {background: #d95232;}
+	.social ul li .icon-appleinc{background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+
+
+
+
